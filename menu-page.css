@@ -84,6 +84,7 @@ body{
     background-color: rgb(85, 146, 65);
     color: white;
     border: none;
+    cursor: pointer;
 }
 .food-scroler-section-container
 {
@@ -208,3 +209,7 @@ body{
 .meat-fish{
     right: 30%
 }
+a { 
+    color: inherit; 
+    text-decoration:  none;   
+} 
