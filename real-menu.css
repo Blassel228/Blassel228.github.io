@@ -1,0 +1,108 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    background-color: rgba(42, 74, 20, 0.1);;
+}
+.footer-container {
+    height: 95.8px;
+    margin-top: 20px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    justify-items: center;
+    column-gap: 20px;
+    border-bottom: 1px solid rgb(70, 68, 68);
+}
+.picture{
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    object-fit:cover;  
+    margin-top: 5px;
+    margin-right: 150px; 
+    border-radius: 50px;
+}
+.foter-text-container
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 300px;
+    column-gap: 20px;
+    margin-right: 100px;
+}
+.book-button{
+    background-color: white;
+    border: 3px solid rgb(68, 181, 68);
+    color: rgb(68, 181, 68);
+    font-size: 14px;
+    width: 70px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: 400;
+    padding: 7px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.section-name-container{
+    margin-left: 230px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.dishes-container
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    justify-content: center;
+}
+.dish-container{
+    position: relative;
+    display: flex;
+    background-color: white;
+    width:500px;
+    height:  auto;
+    border-style: solid;
+    border-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 2px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.dish-container:hover{
+    opacity: 0.7;
+}
+.desciption-container{
+    width: 360px;
+}
+.name-description-container{
+    margin: 10px;
+   
+}
+.dish-name-container{
+    margin-bottom: 10px;
+}
+.image-container{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    right: 10px;
+    height: 75px;
+}
+.image{
+    border-radius: 20px;
+    width: 100px;
+    height: 75px;
+    object-fit: cover;
+}
+.price-container{
+    margin-top: 10px;
+    bottom: 10px;
+}
+
+
+
